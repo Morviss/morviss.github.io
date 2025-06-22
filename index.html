@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandra Sekhar Eerla - Portfolio</title>
+  <style>
+    :root {
+      --bg: #f0f2f5;
+      --text: #333;
+      --card: #fff;
+      --link: #3498db;
+      --highlight: #3498db;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1e22;
+        --text: #e0e0e0;
+        --card: #2a2d31;
+        --link: #58a6ff;
+        --highlight: #58a6ff;
+      }
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: var(--text);
+    }
+
+    header p {
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: var(--highlight);
+      border-bottom: 2px solid var(--highlight);
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .skills span,
+    .projects .project,
+    .achievements .item {
+      display: inline-block;
+      background: var(--card);
+      margin: 8px 8px 0 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .projects .project,
+    .achievements .item {
+      display: block;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Naga Chandra Sekhar Eerla</h1>
+      <p>Senior Associate DevOps Engineer | Hyderabad</p>
+      <p>
+        <a href="mailto:chandrasekharcm16@gmail.com">chandrasekharcm16@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/chandra-sekhar-eerla-6a793620b/">LinkedIn</a> |
+        <a href="https://github.com/Morviss">GitHub</a>
+      </p>
+    </header>
+
+    <section class="summary">
+      <h2>About Me</h2>
+      <p>
+        DevOps and Infrastructure Engineer with 3+ years of experience in cloud infrastructure, automation,
+        and container orchestration. Proven ability to optimize performance, build CI/CD pipelines, and
+        maintain scalable infrastructure with 99.95% uptime. Strong focus on collaboration and
+        Infrastructure as Code.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <span>AWS</span><span>GCP</span><span>Kubernetes</span><span>Docker</span>
+      <span>Terraform</span><span>Ansible</span><span>Helm</span><span>Jenkins</span>
+      <span>GitLab CI</span><span>Python</span><span>Golang</span><span>Bash</span>
+      <span>Kafka</span><span>MySQL</span><span>Redis</span><span>Prometheus</span><span>Grafana</span>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <strong>High-Performance Infrastructure Platform</strong> – Dec 2023<br />
+        Built a scalable, automated infra for real-time transaction processing using IaC, K8s, and monitoring.
+      </div>
+      <div class="project">
+        <strong>DevOps Automation Suite</strong> – Ongoing<br />
+        Created CLI tools and CI/CD automation using Python and scripting. Reduced ops overhead by 25%.
+      </div>
+    </section>
+
+    <section class="achievements">
+      <h2>Achievements</h2>
+      <div class="item">
+        <strong>ACE - Best Employee Award</strong><br />
+        Recognized for two consecutive quarters for infrastructure automation performance.
+      </div>
+      <div class="item">
+        <strong>DevOps Champion</strong><br />
+        Won internal award for innovative automation solutions.
+      </div>
+      <div class="item">
+        <strong>99.95% Uptime</strong><br />
+        Maintained high availability using K8s and cloud-native tooling.
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p>
+        <strong>B.Tech, Mechanical Engineering</strong> – 9.3 CGPA<br />
+        SCSVMV University, 2018–2022
+      </p>
+    </section>
+
+    <div class="footer">
+      © 2025 Naga Chandra Sekhar Eerla. Built with HTML & ❤️
+    </div>
+  </div>
+</body>
+</html>
